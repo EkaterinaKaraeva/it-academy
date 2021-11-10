@@ -1,0 +1,19 @@
+img {
+    width: 350px;
+    float: left;
+    padding: 3px;
+}
+.hb{
+   text-align: center; 
+   color: rgb(89, 89, 255); 
+   background-color: thistle; 
+   text-transform: uppercase; 
+   padding: 10px;
+}
+.content {
+    background-image:url('ball.png');
+    background-size: 50px; 
+    background-position: right top;
+    background-repeat:repeat-y;
+    
+}
