@@ -1,0 +1,16 @@
+.rating {
+unicode-bidi: bidi-override;
+direction: rtl;
+text-align: left;
+}
+.rating span {
+display: inline-block;
+position: relative;
+}
+.rating span:hover:before,
+.rating span:hover ~ span:before {
+content:url('stars.png');
+position: absolute;
+}
+    
+    
