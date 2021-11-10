@@ -1,0 +1,51 @@
+.text {
+padding: 200px; 
+font-size:20px; 
+border:solid blue 1px;
+}
+.gorizont1{
+    background-image: url("gorizontal.png");
+    background-position: top;
+    background-repeat: repeat-x;
+}
+.gorizont2{
+    background-image: url("gorizontal.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+.vertical1{
+    background-image: url("vertical.png");
+    background-position: left;
+    background-repeat: repeat-y;
+}
+.vertical2{
+    background-image: url("vertical.png");
+    background-position: right;
+    background-repeat: repeat-y;
+}
+.top-left{
+    background-image: url("top-left.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.top-right{
+    background-image: url('top-right.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.bottom-left{
+    background-image: url('bottom-left.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+.bottom-right{
+    background-image: url('bottom-right.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+
+
+
+ 
+
