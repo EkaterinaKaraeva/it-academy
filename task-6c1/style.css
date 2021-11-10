@@ -1,0 +1,21 @@
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+div a::before{
+    content: url('extref.png');
+    
+}
+span:first-of-type{
+    color: rgb(65, 236, 65);
+}
+span:last-of-type{
+    color:blue;
+    font-style: italic;
+}
+span{  color:red   
+}
+div{
+    width: 70vw;   
+}
