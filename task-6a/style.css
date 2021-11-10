@@ -1,0 +1,15 @@
+a:hover{
+    color: rgb(255, 0, 55);
+}
+.first a:nth-child(n+2){
+    padding: 5px;
+    border-left: solid 3px red; 
+    
+}
+.second td:nth-child(-n+4){
+    border-right: solid 3px red;
+    
+}
+td {
+    padding: 5px;
+}
